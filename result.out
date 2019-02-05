@@ -1,0 +1,138 @@
+
+Task #1
+start
+s
+sentence
+
+Task #2
+0
+2
+4
+6
+8
+10
+
+Task #3
+My list is equal to [3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48]
+
+Task #4
+Print
+every
+Word word is even
+Word in is even
+Word this is even
+Word sentence is even
+Word that is even
+has
+Word an is even
+Word even is even
+Word number is even
+Word of is even
+letters
+
+Task #5
+1
+2
+Number 3 is Fizz
+4
+Number 5 is Buzz
+Number 6 is Fizz
+7
+8
+Number 9 is Fizz
+Number 10 is Buzz
+11
+Number 12 is Fizz
+13
+14
+Number 15 is FizzBuzz
+16
+17
+Number 18 is Fizz
+19
+Number 20 is Buzz
+Number 21 is Fizz
+22
+23
+Number 24 is Fizz
+Number 25 is Buzz
+26
+Number 27 is Fizz
+28
+29
+Number 30 is FizzBuzz
+31
+32
+Number 33 is Fizz
+34
+Number 35 is Buzz
+Number 36 is Fizz
+37
+38
+Number 39 is Fizz
+Number 40 is Buzz
+41
+Number 42 is Fizz
+43
+44
+Number 45 is FizzBuzz
+46
+47
+Number 48 is Fizz
+49
+Number 50 is Buzz
+Number 51 is Fizz
+52
+53
+Number 54 is Fizz
+Number 55 is Buzz
+56
+Number 57 is Fizz
+58
+59
+Number 60 is FizzBuzz
+61
+62
+Number 63 is Fizz
+64
+Number 65 is Buzz
+Number 66 is Fizz
+67
+68
+Number 69 is Fizz
+Number 70 is Buzz
+71
+Number 72 is Fizz
+73
+74
+Number 75 is FizzBuzz
+76
+77
+Number 78 is Fizz
+79
+Number 80 is Buzz
+Number 81 is Fizz
+82
+83
+Number 84 is Fizz
+Number 85 is Buzz
+86
+Number 87 is Fizz
+88
+89
+Number 90 is FizzBuzz
+91
+92
+Number 93 is Fizz
+94
+Number 95 is Buzz
+Number 96 is Fizz
+97
+98
+Number 99 is Fizz
+Number 100 is Buzz
+
+Task #6
+Create a list of the first letters of every word in this string
+['C', 'a', 'l', 'o', 't', 'f', 'l', 'o', 'e', 'w', 'i', 't', 's']
+['C', 'a', 'l', 'o', 't', 'f', 'l', 'o', 'e', 'w', 'i', 't', 's']
