@@ -185,6 +185,7 @@ def blackjack(a,b,c):
     if ( a + b + c ) <= 21:
         return a + b + c
 
+    # 11 in [a,b,c]
     if ( a == 11 or b == 11 or c == 11):
         sum =  (a + b + c) - 10
 
