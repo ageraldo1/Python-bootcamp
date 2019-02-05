@@ -99,7 +99,12 @@ def master_yoda(text):
     phrase = text.split(sep=' ')
     phrase.reverse()
 
+    # another way to reverse the list
+    # return phrase[::-1]
+
     return ( ' '.join(phrase) )
+
+    
 
 #print (master_yoda('I am home'))   # --> 'home am I'
 #print (master_yoda('We are ready'))        # --> 'ready are We'
@@ -136,6 +141,13 @@ def has_33(nums=[]):
 
     return False
 
+# another way to write the function
+# cannot consider the last element of the list - overflow
+# for i in range(0, len(nums)-1):
+#    if nums[i] == 3 and nums[i+1] == 3:
+#        return True
+#
+#     return False
 #print (has_33([1, 3, 3]))
 #print (has_33([1, 3, 1, 3]))
 #print (has_33([3, 1, 3]))
@@ -147,12 +159,15 @@ def has_33(nums=[]):
 # paper_doll('Mississippi') --> 'MMMiiissssssiiippppppiii'
 
 def paper_doll(text):
-    mylist = []
+    #mylist = []
+    mylist = ''
 
     for word in text:
-        mylist.append(word * 3)
+        #mylist.append(word * 3)
+        mylist += (word * 3)
     
-    return ''.join(mylist)
+    #return ''.join(mylist)
+    return mylist
 
 #print (paper_doll('Hello'))
 #print (paper_doll('Mississippi'))
@@ -166,6 +181,7 @@ def paper_doll(text):
 # blackjack(9,9,11) --> 19
 
 def blackjack(a,b,c):
+    # could use also the sum function - sum(a,b,c) <= 21
     if ( a + b + c ) <= 21:
         return a + b + c
 
