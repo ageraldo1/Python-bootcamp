@@ -1,0 +1,30 @@
+# blackjack rules
+
+Card
+    J/Q/K   -> 10
+    2-10    -> Face Value
+    Ace     -> 1 or 11
+
+Over 21 -> BUST
+
+Computer -> Dealer
+
+Human -> Player
+
+# https://www.youtube.com/watch?v=5bWpnABkU-Y
+# https://www.youtube.com/watch?v=JYvcOEtEC0E
+
+# deck = card 13 * 4 = 52 cards
+
+# Objective 
+    # Have a hand value higher than the dealer and above 21
+    # Have the dealer draw a hand value that exceeds 21
+# Ace Value
+# counted as 1 or 11 as long as does not exceeds 21
+
+# flow
+#   place the bet
+#   all players start with 2 cards
+#   a hand is bust when the amount of cards exceeds 21
+
+
