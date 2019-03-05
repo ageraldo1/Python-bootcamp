@@ -24,12 +24,15 @@ while user_option != "e":
         rnd_option = random.choice(rnd_choices)
 
         if ( game_rules[user_option] == rnd_option):
-            print ("\tUser won the game - your choice {} and computer choice {}\n".format(element_names[user_option], element_names[rnd_option]))
+            #print ("\tUser won the game - your choice {} and computer choice {}\n".format(element_names[user_option], element_names[rnd_option]))
+            print (f"\tUser won the game - your choice {element_names[user_option]} and computer choice {element_names[rnd_option]}\n")
 
         elif (game_rules[rnd_option] == user_option):
-            print ("\tComputer won the game - your choice {} and computer choice {}\n".format(element_names[user_option], element_names[rnd_option]))
+            #print ("\tComputer won the game - your choice {} and computer choice {}\n".format(element_names[user_option], element_names[rnd_option]))
+            print (f"\tComputer won the game - your choice {element_names[user_option]} and computer choice {element_names[rnd_option]}\n")
 
         else:
-            print ("\tGame tied - your choice {} and computer choice {}\n".format(element_names[user_option], element_names[rnd_option]))
+            #print ("\tGame tied - your choice {} and computer choice {}\n".format(element_names[user_option], element_names[rnd_option]))
+            print (f"\tGame tied - your choice {element_names[user_option]} and computer choice {element_names[rnd_option]}\n")
 
     
