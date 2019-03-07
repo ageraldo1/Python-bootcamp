@@ -1,0 +1,56 @@
+.       - Any Character Except New Line
+\d      - Digit (0-9)
+\D      - Not a Digit (0-9)
+\w      - Word Character (a-z, A-Z, 0-9, _)
+\W      - Not a Word Character
+\s      - Whitespace (space, tab, newline)
+\S      - Not Whitespace (space, tab, newline)
+
+\b      - Word Boundary
+\B      - Not a Word Boundary
+^       - Beginning of a String
+$       - End of a String
+
+[]      - Matches Characters in brackets
+[^ ]    - Matches Characters NOT in brackets
+|       - Either Or
+( )     - Group
+
+Quantifiers:
+*       - 0 or More
++       - 1 or More
+?       - 0 or One
+{3}     - Exact Number
+{3,4}   - Range of Numbers (Minimum, Maximum)
+
+
+#### Sample Regexs ####
+
+[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+
+phone number : \d{3}.\d{3}.\d{4}
+               3 dig . 3 dig . 4 dig
+
+find por Mrs
+    Mr\.?\s[A-Z]\w*
+    M(r|s|rs)\.?\s[A-Z]\w*
+
+Email
+    [a-zA-Z0-9.-]+@[a-zA-Z-.]+\.(com|edu|net)
+
+URL
+    https?://(www\.)?(\w+)(\.\w+)
+    |        |       |    |
+    |        |       |    |______ Group 3
+    |        |       |
+    |        |       |___________ Group 2
+    |        |
+    |        |___________________ Group 1
+    |
+    |____________________________ Group 0 (everything)
+
+
+Word Boundary
+    - Before the first character in the string, if the first character is a word character.
+    - After the last character in the string, if the last character is a word character.
+    - Between two characters in the string, where one is a word character and the other is not a word character.

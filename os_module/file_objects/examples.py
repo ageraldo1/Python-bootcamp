@@ -8,7 +8,7 @@ f.close()
 
 
 # using context manager. File will be closed by the context manager
-with open(file_name, 'r') as f:
+with open(file_name, 'r', encoding='utf-8') as f:
     print (f"File name : {f.name}")
     print (f.readlines())
     
