@@ -46,3 +46,4 @@ for k,v in items.items():
         print (f"{item_totals[k]} {v}")
     else:
         print (f"0 {v}")
+1

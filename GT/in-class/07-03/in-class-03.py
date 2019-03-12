@@ -27,3 +27,10 @@ for item in candyCart:
 
 print ("\n")
     
+# courses = ['History', 'Math', 'Physics', 'CompSci']
+#
+# for index, course in enumare(courses):
+#       print (index, course)
+#
+
+# s = " - ".join(courses)
